@@ -1,0 +1,25 @@
+@startuml
+class Contect{
+    String name;
+    String phoneNumber;
+    void display()
+}
+
+class BusinessContect extends Contect{
+String company;
+ void display()
+}
+
+class PersonalContect extends Contect{
+String relationship;
+void display()
+}
+
+class AddressBook{
+ List<Contect> contects
+ void quit()
+ void searchContect(String name)
+ void displayContents()
+}
+
+@enduml
