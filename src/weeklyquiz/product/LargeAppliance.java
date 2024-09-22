@@ -1,4 +1,4 @@
-package weeklyquiz;
+package weeklyquiz.product;
 
 public class LargeAppliance extends Product{
     LargeAppliance(String name, int price, int weight) {

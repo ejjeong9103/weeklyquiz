@@ -1,4 +1,4 @@
-package weeklyquiz;
+package weeklyquiz.product;
 
 public class Cart {
     Product[] products;
